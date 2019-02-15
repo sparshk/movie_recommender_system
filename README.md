@@ -86,8 +86,8 @@ It has two main components:
 
 ## Usage
 
-```
-  The web application has been deployed here : 
+```link
+  The web application has been deployed here : https://moviesrsfinder.herokuapp.com/
 
 ```
 ## Dependencies
