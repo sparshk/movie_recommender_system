@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 engine=create_engine("postgres://postgres:25736534@localhost:5432/postgres")
 
 def recommend_movies(predictions_df, userID, movies_df, original_ratings_df, num_recommendations=5):
-	user_row_number = userID - 1
+	user_row_number = userID - 2
     print(user_row_number)
 	sorted_user_predictions = predictions_df.iloc[user_row_number].sort_values(ascending=False)
 	user_data = original_ratings_df[original_ratings_df.account_id == (userID)]
