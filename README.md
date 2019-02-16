@@ -95,10 +95,11 @@ It has two main components:
   
   Or else, you can clone the project locally and follow these steps:
   1) change directory to the cloned file and create a virtual environment using "virtualenv env"
-  2) pip install -r requirements.txt
-  3) cd movie_rs
-  3) python manage.py runserver
-  4) Type localhost:8000 in your browser and you can now login, rate and get recommended.
+  2) source env/bin/activate
+  3) pip install -r requirements.txt
+  4) cd movie_rs
+  5) python manage.py runserver
+  6) Type localhost:8000 in your browser and you can now login, rate and get recommended.
 ```
 ## Dependencies
 ```
