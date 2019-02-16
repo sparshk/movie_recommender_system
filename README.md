@@ -88,7 +88,17 @@ It has two main components:
 
 ```link
   The web application has been deployed here : https://moviesrsfinder.herokuapp.com/
-
+  However, if you are facing issues getting recommendations, you can log in through any of the dummy users for testing           purposes. The dummy accout credentials are:
+        username : sparshx (x can be any value from 1 to 15, also maintain case)
+        password : 1234
+  Don't rate any movies from dummy accounts.
+  
+  Or else, you can clone the project locally and follow these steps:
+  1) change directory to the cloned file and create a virtual environment using "virtualenv env"
+  2) pip install -r requirements.txt
+  3) cd movie_rs
+  3) python manage.py runserver
+  4) Type localhost:8000 in your browser and you can now login, rate and get recommended.
 ```
 ## Dependencies
 ```
